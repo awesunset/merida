@@ -74,7 +74,7 @@ header .inner a.logo {
   width: 200px;
   height: 80px;
   display: block;
-  text-indent: -500px;
+  text-indent: -3000px;
   overflow: hidden;
   background: url(/3.img/00header_footer/col_logo_white.svg) no-repeat 50% 50%;
 }
