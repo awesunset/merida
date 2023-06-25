@@ -76,7 +76,7 @@ header .inner a.logo {
   display: block;
   text-indent: -3000px;
   overflow: hidden;
-  background: url(/3.img/00header_footer/col_logo_white.svg) no-repeat 50% 50%;
+  background: url(/merida/3.img/00header_footer/col_logo_white.svg) no-repeat 50% 50%;
 }
 
 header .gnb {
@@ -127,7 +127,7 @@ header .tel {
   padding-left: 23px;
 text-align: left;
   font-family:'Lora', serif;
-  background: url(/3.img/00header_footer/phone.svg)no-repeat 0 50%/20px
+  background: url(/merida/3.img/00header_footer/phone.svg)no-repeat 0 50%/20px
 }
 
 /* 서브메뉴 내려오기 */
@@ -472,7 +472,7 @@ justify-content: space-between;
 display: flex;
 justify-content: flex-end;
 padding: 3px;
-background: url(/3.img/sec04/diamond.svg)no-repeat 50% 50%/98%;
+background: url(/merida/3.img/sec04/diamond.svg)no-repeat 50% 50%/98%;
   }
 
   .sec04 .right p {
@@ -555,13 +555,13 @@ padding-bottom: 40px;
 /* 스와이퍼버튼 위치 및 스타일 */
 
 .sec05 .swiper-button-prev {
-  background: url(/3.img/sec05/arrow_left.svg) no-repeat;
+  background: url(/merida/3.img/sec05/arrow_left.svg) no-repeat;
   position: absolute;
   top: 36px;
 }
 
 .sec05 .swiper-button-next {
-  background: url(/3.img/sec05/arrow_right.svg) no-repeat;
+  background: url(/merida/3.img/sec05/arrow_right.svg) no-repeat;
   position: absolute;
   top: 36px;
 }
@@ -643,7 +643,7 @@ border: 1px solid var(--colorRightBrown);
   content: "";
   width: 25px;
   height: 100%;
-  background: url(/3.img/sec06/downloadIcon.svg)no-repeat 50% 50%;
+  background: url(/merida/3.img/sec06/downloadIcon.svg)no-repeat 50% 50%;
 }
 
 
