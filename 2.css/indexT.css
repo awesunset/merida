@@ -2,6 +2,13 @@
 
 /* 메리다웨딩 태블릿 */
 
+/* * {
+outline: 1px solid red; 
+} */
+
+img {
+    vertical-align: middle;
+}
 
 html,
 body {
@@ -53,3 +60,90 @@ header .inner a.logo {
     transform: translateX(0%);
     transition: transform 0.5s;
 }
+
+nav{
+position: relative;
+}
+
+nav .menuBt {
+    display: inline-block;
+    position: absolute;
+    right: 26px;
+    top: 50%;
+    transform: translateY(-50%)
+  }
+
+
+  /* 섹션01 */
+  .sec01 {
+      height: 500px;
+  }
+
+  .visualLogo {
+      width: 234px;
+  height: 148px;
+  }
+
+
+  /* 섹션02 */
+  .sec02 {
+  height: 630px;
+}
+
+.sec02 > div:first-child {
+     padding: 30px 0 50px 0;
+}
+
+.sec02 > div:first-child h1 {
+  font-size: 30px;}
+
+  .sec02 > div:first-child p {
+    display: none;
+  }
+
+
+
+  /* 섹션03 */
+  .sec03 {
+    height: auto;
+      padding:100px 69px 100px 69px;
+      gap: 20px;
+      position: relative;
+  }
+
+  .sec03 > div >.title {
+    gap: 0;
+  }
+
+  .sec03 > div:first-child {
+    display: block;
+  }
+
+  .sec03 .title > h1 {
+    font-size: 30px;
+    line-height: 1.9;
+    margin-right: 10px;
+  }
+
+  .sec03 .title> span {
+    font-size: 30px;
+  }
+
+  .sec03 > p {
+    display: none;
+  }
+
+  .sec03 > div >  p {
+    width: 100%;
+    font-size: 15px;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 69px;
+  }
+
+  .sec03 > div:nth-child(2) {
+    height: 118px;
+    margin-bottom: 105px;
+  }
